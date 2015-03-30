@@ -32,6 +32,11 @@
 				ID da Conta de Destino: <h:inputText id="accTransfToId" value="#{bank.accTransfToId}"/><br/>
 				Valor em R$: <h:inputText id="amount" value="#{bank.amount}"/><br/>
 				<h:commandButton value="Transferir" title="Transferir" action="#{bank.transfer}"/><br/><br/>
+				
+			<b>Bonus</b><br/>
+				ID da Conta: <h:inputText id="accountIdBonus" value="#{bank.accountIdBonus}"/><br/>
+				<h:commandButton value="Bonus" title="Bonus" action="#{bank.getBonus}"/><br/><br/>
+				
 		</h:form>
 	</h:body>
 </html>

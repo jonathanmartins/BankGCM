@@ -7,6 +7,7 @@ public class Account {
 	
 	public Account() {
 		this.balance = 0.0;
+		this.bonus = 0.0;
 	}
 	
 	public int getId() {

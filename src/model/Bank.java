@@ -44,5 +44,8 @@ public class Bank implements IBankServices {
 		service.execute();
 	}
 	
-
+	public double getBonus(Client client){
+		System.out.println("Bonus: " + client.getAccount().getBonus());
+		return client.getAccount().getBonus();
+	}
 }

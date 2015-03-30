@@ -29,7 +29,9 @@ public class BankBean implements Serializable{
 	private int accountIdB;
 	private int accountIdD;
 	private int accountIdW;
+	private int accountIdBonus;
 	private double balanceB;
+	private double bonusB;
 	//Client
 	private String name;
 	//Operation
@@ -62,6 +64,13 @@ public class BankBean implements Serializable{
 		setBalanceB(client.getAccount().getBalance());
 		bank.getBalance(client);
 		return "balance.xhtml";
+	}
+	
+	public String getBonus(){
+		this.client = Data.getInstance().getClient(accountIdBonus);
+		setBonusB(client.getAccount().getBonus());
+		bank.getBonus(client);
+		return "bonus.xhtml";
 	}
 
 	public String deposit() {
@@ -197,6 +206,22 @@ public class BankBean implements Serializable{
 
 	public void setAmountT(double amountT) {
 		this.amountT = amountT;
+	}
+
+	public double getBonusB() {
+		return bonusB;
+	}
+
+	public void setBonusB(double bonusB) {
+		this.bonusB = bonusB;
+	}
+
+	public int getAccountIdBonus() {
+		return accountIdBonus;
+	}
+
+	public void setAccountIdBonus(int accountIdBonus) {
+		this.accountIdBonus = accountIdBonus;
 	}
 
 }
