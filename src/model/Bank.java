@@ -1,7 +1,6 @@
 package model;
 
 import data.Data;
-import command.Balance;
 import command.Deposit;
 import command.IBank;
 import command.Transfer;
