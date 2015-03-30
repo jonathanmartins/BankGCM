@@ -3,6 +3,7 @@ package model;
 public class Account {
 	private int id;
 	private double balance;
+	private double bonus;
 	
 	public Account() {
 		this.balance = 0.0;
@@ -22,5 +23,13 @@ public class Account {
 	
 	public void setBalance(double balance) {
 		this.balance = balance;
+	}
+
+	public double getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(double bonus) {
+		this.bonus = bonus;
 	}
 }

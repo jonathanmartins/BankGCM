@@ -9,7 +9,6 @@ public class Deposit implements IBank {
 	public Deposit(double amount, Client client) {
 		this.amount = amount;
 		this.client = client;
-
 	}
 	
 	public void execute() {
