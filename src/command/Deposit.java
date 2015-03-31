@@ -15,5 +15,6 @@ public class Deposit implements IBank {
 	public void execute() {
 		client.getAccount().setBalance(client.getAccount().getBalance() + amount);
 		System.out.println("Depositado: " + amount + " ; Saldo: " + client.getAccount().getBalance());
+		System.out.println("Bônus de " + amount/10 + " creditado.");
 	}
 }
