@@ -9,12 +9,12 @@ public class Deposit implements IBank {
 	public Deposit(double amount, Client client) {
 		this.amount = amount;
 		this.client = client;
-		this.client.getAccount().setBonus(this.client.getAccount().getBonus() + amount/10);
+		this.client.getAccount().setBonus(this.client.getAccount().getBonus() + amount/20);
 	}
 	
 	public void execute() {
 		client.getAccount().setBalance(client.getAccount().getBalance() + amount);
 		System.out.println("Depositado: " + amount + " ; Saldo: " + client.getAccount().getBalance());
-		System.out.println("Bônus de " + amount/10 + " creditado.");
+		System.out.println("Bônus de " + amount/20 + " creditado.");
 	}
 }
