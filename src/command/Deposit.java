@@ -9,7 +9,8 @@ public class Deposit implements IBank {
 	public Deposit(double amount, Client client) {
 		this.amount = amount;
 		this.client = client;
-		this.client.getAccount().setBonus(this.client.getAccount().getBonus() + amount/10);
+		this.client.getAccount().setBonus((int) (this.client.getAccount().getBonus() + amount/10));
+		System.out.println(client.getAccount().getBonus());
 	}
 	
 	public void execute() {

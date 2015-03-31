@@ -3,10 +3,11 @@ package model;
 public class Account {
 	private int id;
 	private double balance;
-	private double bonus;
+	private int bonus;
 	
 	public Account() {
 		this.balance = 0.0;
+		this.bonus = 0;
 	}
 	
 	public int getId() {
@@ -25,11 +26,11 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public double getBonus() {
+	public int getBonus() {
 		return bonus;
 	}
 
-	public void setBonus(double bonus) {
+	public void setBonus(int bonus) {
 		this.bonus = bonus;
 	}
 }
