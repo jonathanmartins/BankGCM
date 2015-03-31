@@ -17,7 +17,7 @@ public class Balance implements IBank {
 	
 	public void execute() {
 		this.balance = (client.getAccount().getBalance());
-		logger.info("Cliente consultou saldo!");
+		logger.info("Seu log diferenciado! cliente fez uma consulta ao saldo!");
 	}
 
 	public double getBalance() {
