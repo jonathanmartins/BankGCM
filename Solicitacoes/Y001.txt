@@ -1,0 +1,4 @@
+Solicitante: Y
+Tipo: Aprimoramento
+Data de abertura: 04/05/2015
+Conteúdo: Resolver com urgência. Alteração na operação de débito seja informada uma descrição para a operação.

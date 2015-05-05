@@ -1,0 +1,4 @@
+Solicitante: X
+Tipo: Aprimoramento
+Data de abertura: 04/05/2015
+Conteúdo: Resolver com urgência. Alteração na operação de crédito para que seja informada uma descrição para a operação.

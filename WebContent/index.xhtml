@@ -18,6 +18,9 @@
 				<h:commandButton value="Saldo" title="Saldo" action="#{bank.getBalance}"/><br/><br/>
 				
 			<b>Depositar</b><br/>
+			
+			- Essa operação credita o valor especificado na conta a sua escolha!
+			
 				ID da Conta: <h:inputText id="accountIdD" value="#{bank.accountIdD}"/><br/>
 				Valor em R$: <h:inputText id="amountD" value="#{bank.amountD}"/><br/>
 				<h:commandButton value="Depositar" title="Depositar" action="#{bank.deposit}"/><br/><br/>
