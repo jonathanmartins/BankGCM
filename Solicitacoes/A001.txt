@@ -1,0 +1,9 @@
+Solicitante: Cliente01
+
+Tipo: Aprimoramento
+
+Data de abertura: 03/05/2015
+
+Conteúdo: mudança na regra na execução da operação de débito. O saldo mínimo em conta deverá ser R$ 2,00.
+Esta restrição deve ser informada ao usuário através de mensagem caso o valor a ser debitado
+ultrapasse o saldo minimo em conta.
